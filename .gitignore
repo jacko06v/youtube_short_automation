@@ -2,3 +2,5 @@
 __pycache__/
 main.py-oauth2.json
 client_secret.json
+.DS_Store
+

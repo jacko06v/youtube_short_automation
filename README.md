@@ -21,8 +21,8 @@ the bot will also create a watermark on the videos.
 ## Example
 
 <div style="display: flex;">
-  <img src="images/original.png" style="width: 50%;" />
-  <img src="images/copy.png" style="width: 50%;" />
+  <img src="images/original.png" style="width: 30%;" />
+  <img src="images/copy.png" style="width: 30%;" />
 </div>
 
 ## What do you need?

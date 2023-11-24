@@ -156,9 +156,12 @@ def upload_one_video_only(link):
 
 def upload_video_from_channels():
     idChannels = [
-        "CHANNEL_ID",
-        "CHANNEL_ID",
-        "CHANNEL_ID"
+        "UCP-7Qvx57rJN7uz3k4zLf7A",
+        "UCaM6K7gFbo4qBPNynPt7q2g",
+        "UCQd6sUvKV4wh3jYCs647QKQ",
+        "UCjqXzVkLqdWAVV3pp3BBsxQ",
+        "UCC11jFT2F7OPOEPXZxs6GEw",
+        "UCgh5l4MxpVw4SwQX3hbuxHg"
     ]
     for IDChannel in idChannels:
         links, ids = get_shorts_links(IDChannel)
