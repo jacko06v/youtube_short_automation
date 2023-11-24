@@ -6,23 +6,23 @@
 
 ![image shorts.png](images/shorts.png)
 
-Wanna create a youtube channel or tiktok account with podcasts clips but don't have time to edit the videos? This bot will do it for you.
+Wanna create a youtube channel or tiktok account with podcasts clips but don't have time to edit the videos? This bot will do it for you.<br>
 
-is it ethical? probably not.
-is it working? yes.
+is it ethical? probably not.<br>
+is it working? yes.<br>
 
 ## How does it work?
 
-basically you'll steal other people's content from youtube and upload it to your channel and tiktok account using the same title and tags.
-the bot will schedule the videos to be uploaded to youtube.
-the bot will also upload the videos to tiktok (without scheduling).
-the bot will also create a watermark on the videos.
+basically you'll steal other people's content from youtube and upload it to your channel and tiktok account using the same title and tags. <br>
+the bot will schedule the videos to be uploaded to youtube.<br>
+the bot will also upload the videos to tiktok (without scheduling).<br>
+the bot will also create a watermark on the videos.<br>
 
 ## Example
 
 <div style="display: flex;">
-  <img src="images/original.png" style="width: 30%;" />
-  <img src="images/copy.png" style="width: 30%;" />
+  <img src="images/original.png" style="width: 40%;" />
+  <img src="images/copy.png" style="width: 40%;" />
 </div>
 
 ## What do you need?
