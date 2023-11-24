@@ -29,9 +29,9 @@ the bot will also create a watermark on the videos.<br>
 
 1. You need to have a youtube channel and a tiktok account (tiktok account is optional).
 2. You need to grab channel ids of channels you want to steal content from.
-3. you'll need to create credentials in the Google Developers Console and download the client secret file
+3. you'll need to create credential and api key in the Google Developers Console and download the client secret file
 
-## how to create credentials in the Google Developers Console
+## how to create credentials in the Google Developers Console and API key
 
 1. **Go to the Google Developers Console:** Visit the Google Developers Console.
 
@@ -44,14 +44,20 @@ the bot will also create a watermark on the videos.<br>
    - Go to "APIs & Services" > "Credentials".
    - Click on "Create credentials" and select "OAuth client ID".
    - Choose the application type (Web application, Android, iOS, etc.). For accessing YouTube data from your server or local machine, select "Web application".
-   - Fill in the required information, like name and authorized redirect URIs (if applicable).
+   - Fill in the required information.
 
-5. **Download the client secret JSON file:**
+5. **Create an api key**
+
+   - Go to "APIs & Services" > "Credentials".
+   - Click on "Create credentials" and select "API key".
+   - Copy the api key and place it inside .env file following the .env.example file
+
+6. **Download the client secret JSON file:**
 
    - After creating the credentials, you'll see the details. Click on the download icon next to your newly created OAuth client ID.
    - This file is the client_secret.json file you'll need for accessing the YouTube API.
 
-6. **Rename the client secret file to client_secret.json and place it inside src/memory/**
+7. **Rename the client secret file to client_secret.json and place it inside src/memory/**
 
 ## How to install?
 

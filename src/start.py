@@ -50,6 +50,7 @@ def get_authenticated_service():
 
 
 def download_video(url, id):
+    youtube_api_key = os.getenv("YOUTUBE_API_KEY")
    
     video_path = download(url)
     if video_path == "Error":
@@ -59,7 +60,7 @@ def download_video(url, id):
     #remove .mp4 from filename
     video_name = video_name.split(".")[0]
     #get video id from url
-    url_request = f"https://www.googleapis.com/youtube/v3/videos?key=AIzaSyDkvH00R8o5ruYs7kpsp0IFYEtHwNNaWsI&fields=items(snippet(title,description,tags))&part=snippet&id={id}"
+    url_request = f"https://www.googleapis.com/youtube/v3/videos?key={youtube_api_key}&fields=items(snippet(title,description,tags))&part=snippet&id={id}"
     response = requests.get(url_request)
     data = response.json()
     #get tags from video
@@ -124,8 +125,8 @@ def download_video(url, id):
 
 
 def get_shorts_links(idChannel):
-  
-    api_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={idChannel}&maxResults=5&q=&type=video&key=AIzaSyDkvH00R8o5ruYs7kpsp0IFYEtHwNNaWsI"
+    youtube_api_key = os.getenv("YOUTUBE_API_KEY")
+    api_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={idChannel}&maxResults=5&q=&type=video&key={youtube_api_key}"
     
     response = requests.get(api_url)
     data = response.json()
