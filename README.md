@@ -1,3 +1,7 @@
+![Static Badge](https://img.shields.io/badge/version-1.0.0-brightgreen)
+![GitHub Repo stars](https://img.shields.io/github/stars/jacko06v/youtube_short_automation)
+![GitHub contributors](https://img.shields.io/github/contributors/jacko06v/youtube_short_automation)
+
 # Youtube and tiktok automation
 
 ### Bot name is still undecided :)
@@ -62,6 +66,9 @@ the bot will also create a watermark on the videos.<br>
 ## How to install?
 
 1. clone the repo
+   ```
+   git clone https://github.com/jacko06v/youtube_short_automation.git
+   ```
 2. install the dependencies with pip
 3. search for idChannels inside src/start.py and replace the ids with the channels ids you want to steal content from
 4. if you're planning to upload to tiktok, you'll need to get your session id and place it inside .env file following the .env.example file
